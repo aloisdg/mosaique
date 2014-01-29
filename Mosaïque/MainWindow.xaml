@@ -1,0 +1,13 @@
+﻿<Window x:Class="Mosaïque.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mosaic" Height="900" Width="900" x:Name="window">
+    <Grid>
+        <StackPanel x:Name="Palette">
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <TextBox x:Name="value" Width="120"></TextBox>
+            <Button Content="display" Click="Button_Click" IsDefault="True"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
